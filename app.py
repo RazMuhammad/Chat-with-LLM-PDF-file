@@ -37,7 +37,7 @@ class RAG:
     def __init__(self, file_name, query):
         self.file_name = file_name
         self.query = query
-        self.key = os.getenv('GROQ_API_KEY')
+        self.key = st.secrets['GROQ_API_KEY']
         self.client = Groq(api_key=self.key)
         self.embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
