@@ -96,6 +96,7 @@ class RAG:
 
 
 st.title("Chat with LLM || PDF file")
+st.write("Interact with an AI assistant for general queries or upload a PDF to ask specific questions about its content. This app seamlessly combines chat and PDF query capabilities for a versatile user experience.")
 
 # Initialize client (replace with Groq if needed)
 # client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
