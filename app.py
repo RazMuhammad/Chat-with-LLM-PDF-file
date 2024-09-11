@@ -75,7 +75,7 @@ class RAG:
             messages=[
                 {
                     "role": "system",
-                    "content": "You are a detailed and specific assistant.",
+                    "content": "Answer questions according to the documents contents. See the contents if the require details answer, answer it otherwise make it short.",
                 },
                 {
                     "role": "user",
